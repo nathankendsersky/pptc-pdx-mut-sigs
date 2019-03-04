@@ -25,11 +25,6 @@ This repo contains code for:
 Details
 =======
 
-- deconstructsigs.sh
--- Run first to pull relevant files from figshare
-
-- theme.R
--- Code for Figure 4G ggplot2 theme
-
-- deconstructsigs-30-finalpub.R
--- Code to calculate cosine similarity value for each model and to plot Figure 4G
+- deconstructsigs.sh -- Run first to pull relevant files from figshare
+- theme.R -- Code for Figure 4G ggplot2 theme
+- deconstructsigs-30-finalpub.R -- Code to calculate cosine similarity value for each model and to plot Figure 4G
