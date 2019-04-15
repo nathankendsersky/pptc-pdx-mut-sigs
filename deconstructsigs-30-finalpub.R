@@ -34,7 +34,8 @@ sigs.input <- mut.to.sigs.input(mut.ref = sig.df,
                                 chr = "chr", 
                                 pos = "pos", 
                                 ref = "ref", 
-                                alt = "alt")
+                                alt = "alt",
+                                bsg = BSgenome.Hsapiens.UCSC.hg19)
 
 # remove samples with less than 50 muts (24 PDXs)
 remove <- c("ALL-58", "OS-36-SJ", "OS-32", "Rh-30R", "COG-N-453x", 
@@ -52,7 +53,8 @@ sigs.input <- mut.to.sigs.input(mut.ref = new.df,
                                 chr = "chr", 
                                 pos = "pos", 
                                 ref = "ref", 
-                                alt = "alt")
+                                alt = "alt",
+                                bsg = BSgenome.Hsapiens.UCSC.hg19)
 head(sigs.input)
 
 # determine the signatures contributing to each samples
