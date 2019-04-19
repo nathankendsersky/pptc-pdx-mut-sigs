@@ -1,14 +1,17 @@
-### new signature tool - can handle samples separately
-# install.packages("devtools")
-# devtools::install_github(repo = "raerose01/deconstructSigs")
-# source("https://bioconductor.org/biocLite.R")
-# biocLite("BSgenome.Hsapiens.UCSC.hg19")
+#### install/require packages ######################################################################
+# install/require hg19
+source("https://bioconductor.org/biocLite.R")
+biocLite("BSgenome.Hsapiens.UCSC.hg19")
+
+# install/require deconstructSigs
+if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+devtools::install_github(repo = "raerose01/deconstructSigs")
 library(deconstructSigs)
-library(readxl)
 
 #### run mutsigs analysis - cosmic ######################################################################
 setwd("~")
 # set directories for saving files, specify histology of interest
+dir.create(file.path("~/Desktop/mutsig-demo/"))
 home <- "~/Desktop/mutsig-demo/"
 hist <- "all"
 # create new directories in home
@@ -16,6 +19,10 @@ dir.create(file.path(home,"signatures"))
 dir.create(file.path(home,"signatures/bysample"))
 dir.create(file.path(home,"figures"))
 dir.create(file.path(home,"figures/signatures"))
+
+###################################################################################################
+# NOTE! download deconstructsigs.sh, move file to ~/Desktop/mutsig-demo/, RUN script to pull data #
+###################################################################################################
 
 # load pptc.merge file; 240 PDXs
 load(paste0(home,"2019-02-14-allpdx-clean-maf-240.rda"), verbose = T)
