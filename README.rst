@@ -20,11 +20,15 @@ Introduction
 This repo contains code for:
 
 1. Creation of mutational signature weight matrices
-2. Code for Figure 4G
+2. Code for Figure S3A
 
 Details
 =======
 
-- deconstructsigs.sh -- Run first to pull relevant files from figshare
-- theme.R -- Code for Figure 4G ggplot2 theme
-- deconstructsigs-30-finalpub.R -- Code to calculate cosine similarity value for each model and to plot Figure 4G
+- deconstructsigs-final.sh -- RUN 1st -- pulls relevant files from figshare and create appropriate directories
+- deconstructsigs-final.R -- RUN 2nd -- calculates cosine similarity values and plot signatures by model/histology
+
+- theme.R -- contains theme for ggplot
+- leukemia-brain-order.txt -- contains the pdx order for ggplot (leukemias and brain tumors)
+- solid-order.txt -- contains the pdx order for ggplot (solid tumors)
+- signature-category-color.txt -- contains signatures, categories, and colors (for ggplot)
