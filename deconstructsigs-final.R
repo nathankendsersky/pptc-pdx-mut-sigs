@@ -169,8 +169,6 @@ fig.cat.color <- read.table(text=getURL("https://raw.githubusercontent.com/natha
                             sep="\t",header = T, comment.char = "")
 fig.cat.color.sub <- subset(fig.cat.color, fig.cat.color$Signature %in% unique(data.complete.sub1$Signature))
 plot.colors <- as.character(fig.cat.color.sub$Colors)
-new.colors <- c("#DAF1FC","#D49DC7","#C1A72F","#CEAC8F","#9EDDF9","#104A7F","#F9ED32","#FBE3C7","#D3C3E0","#FAD2D9","#D97D25",
-                "#B2509E","#00AEEF","#F89420","#EA7075","#F8AFB3","#ED1C24")
 
 ## plot graph
 source(paste0(home,"theme.R"))
