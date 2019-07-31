@@ -1,0 +1,26 @@
+Signature Category Colors
+Signature.1 5-mC deamination #DAF1FC
+Signature.10 Hypermutation and/or MSI #FBE3C7
+Signature.11 TMZ treatment #007EB5
+Signature.12 Unknown #D3C3E0
+Signature.13 APOBEC #FAD2D9
+Signature.14 Hypermutation and/or MSI #754C29
+Signature.15 DNA repair #D97D25
+Signature.16 Unknown #B2509E
+Signature.17 Unknown #009444
+Signature.18 Unknown #00AEEF
+Signature.19 Unknown #CACCDB
+Signature.2 APOBEC #D49DC7
+Signature.20 DNA repair #E8C51D
+Signature.21 Hypermutation and/or MSI #F89420
+Signature.24 Aflatoxin exposure #EA7075
+Signature.25 Unknown #F8AFB3
+Signature.26 DNA repair #ED1C24
+Signature.29 Chewing tobacco exposure #7E1918
+Signature.3 DNA repair #C1A72F
+Signature.4 Tobacco mutagens #ED2891
+Signature.5 Unknown #CEAC8F
+Signature.6 DNA repair #9EDDF9
+Signature.7 UV exposure #104A7F
+Signature.8 Unknown #F9ED32
+Signature.9 Hypermutation and/or MSI #97D1A9
