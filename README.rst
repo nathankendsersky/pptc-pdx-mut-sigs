@@ -26,7 +26,7 @@ Details
 =======
 1. Download the two following scripts.
 
-  * deconstructsigs-final.sh -- RUN 1st -- pulls relevant files from figshare and create appropriate directories
+  * deconstructsigs-final.sh -- RUN 1st -- pulls relevant files from figshare and create appropriate directories (requires brew and wget - directions at bottom of script)
   * deconstructsigs-final.R -- RUN 2nd -- calculates cosine similarity values and plot signatures by model/histology
   
 2. The following files will be loaded from the previous two scripts - no need to download.
