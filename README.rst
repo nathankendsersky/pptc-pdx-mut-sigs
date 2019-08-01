@@ -24,10 +24,13 @@ This repo contains code for:
 
 Details
 =======
-- Download the two following scripts.
+1. Download the two following scripts.
+
   * deconstructsigs-final.sh -- RUN 1st -- pulls relevant files from figshare and create appropriate directories
   * deconstructsigs-final.R -- RUN 2nd -- calculates cosine similarity values and plot signatures by model/histology
-- The following files will be loaded from the previous two scripts - no need to download.
+  
+2. The following files will be loaded from the previous two scripts - no need to download.
+
   * theme.R -- contains theme for ggplot
   * leukemia-brain-order.txt -- contains the pdx order for ggplot (leukemias and brain tumors)
   * solid-order.txt -- contains the pdx order for ggplot (solid tumors)
